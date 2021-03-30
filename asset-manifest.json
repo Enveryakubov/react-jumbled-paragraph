@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-jumbled-paragraph/static/css/main.fa3cfdcf.chunk.css",
+    "main.js": "/react-jumbled-paragraph/static/js/main.4fb2f00c.chunk.js",
+    "main.js.map": "/react-jumbled-paragraph/static/js/main.4fb2f00c.chunk.js.map",
+    "runtime-main.js": "/react-jumbled-paragraph/static/js/runtime-main.c8964b16.js",
+    "runtime-main.js.map": "/react-jumbled-paragraph/static/js/runtime-main.c8964b16.js.map",
+    "static/js/2.cbc8fcef.chunk.js": "/react-jumbled-paragraph/static/js/2.cbc8fcef.chunk.js",
+    "static/js/2.cbc8fcef.chunk.js.map": "/react-jumbled-paragraph/static/js/2.cbc8fcef.chunk.js.map",
+    "static/js/3.767c20fb.chunk.js": "/react-jumbled-paragraph/static/js/3.767c20fb.chunk.js",
+    "static/js/3.767c20fb.chunk.js.map": "/react-jumbled-paragraph/static/js/3.767c20fb.chunk.js.map",
+    "index.html": "/react-jumbled-paragraph/index.html",
+    "static/css/main.fa3cfdcf.chunk.css.map": "/react-jumbled-paragraph/static/css/main.fa3cfdcf.chunk.css.map",
+    "static/js/2.cbc8fcef.chunk.js.LICENSE.txt": "/react-jumbled-paragraph/static/js/2.cbc8fcef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8964b16.js",
+    "static/js/2.cbc8fcef.chunk.js",
+    "static/css/main.fa3cfdcf.chunk.css",
+    "static/js/main.4fb2f00c.chunk.js"
+  ]
+}
