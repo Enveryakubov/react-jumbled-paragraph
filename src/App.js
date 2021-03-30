@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Jumbler from "./components/Jumbler"
+import Speedreader from "./components/Speedreader"
+import Navbar from "./components/Navbar"
+import Home from "./components/Home"
+import {useState} from "react"
 
 function App() {
+const [activity, setActivity] = useState("home")
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar setActivity={setActivity}/>
+      <div className="container">
+        {activity === "home" && <Home/>}
+        {activity === "jumbler" && <Jumbler/>}
+        {activity === "speedreader" && <Speedreader/>}
+      </div>
     </div>
   );
 }
