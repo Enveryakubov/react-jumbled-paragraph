@@ -12,7 +12,7 @@ const [activity, setActivity] = useState("home")
     <div>
       <Navbar setActivity={setActivity}/>
       <div className="container">
-        {activity === "home" && <Home/>}
+        {activity === "home" && <Home setActivity={setActivity}/>}
         {activity === "jumbler" && <Jumbler/>}
         {activity === "speedreader" && <Speedreader/>}
       </div>
