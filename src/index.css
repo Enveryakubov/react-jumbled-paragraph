@@ -9,11 +9,14 @@ body {
   /* background-color: #cfdac8; */
   background-image: url(https://thebogotapost.com/wp-content/uploads/2017/06/636052464065850579-137719760_flyer-image-1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  min-height: 900px;
-
+  background-size: 100%;
+  background-color: rgb(211, 211, 148);
+  
+  
+  
 }
+
+
 
 .jumbler-result{
   min-height:200px;
@@ -46,8 +49,21 @@ justify-content:space-around;
   color: rgb(61, 58, 66);
   font-family:'Courier New', Courier, monospace
 }
+.sph{
+  background-color:#d9dab0; 
+  border-radius: 5px; 
+  margin-top:20px; 
+  text-align:center;
+  padding-top:20px;
+}
 .sph h5{
   text-align: left;
+}
+.word{
+  height:200px;
+  background-color: white;
+  padding-top: 70px;
+  margin-bottom: 30px;
 }
 
 /* Review */
@@ -71,9 +87,19 @@ img{
   border-radius: 50%;
   border: 6px solid  #abb8ce;
   box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+  margin-bottom: 5px;
 }
 .fa{
   color: rgb(180, 104, 4) ;
+}
+.message{
+  background-color:rgb(15, 65, 52); 
+  color:white; 
+  text-align: center;
+  font-size:15px; 
+  border-radius:5px; 
+  padding:5px; 
+  margin-bottom:20px;
 }
 @media screen and (min-width: 800px){
   .container{

@@ -30,13 +30,13 @@ const Speedreader = () => {
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
       }
-      async function demo(speed) {
-        for (let i = 0; i < arr.length; i++) {
-         await sleep(speed);
-         setResult(prev => prev + arr[i] + " ")
-        }
-        
+    async function demo(speed) {
+      for (let i = 0; i < arr.length; i++) {
+        await sleep(speed);
+        setResult(prev => prev + arr[i] + " ")
       }
+      
+    }
       demo(readingSpeed)
       
       
@@ -55,7 +55,7 @@ const Speedreader = () => {
             <div className="container title">Скорочтение</div>
           </div>
           { show &&
-          <div className="container sph" style={{backgroundColor:"#d9dab0", borderRadius:"5px", marginTop:"20px", textAlign:"center", paddingTop:"20px"}}>
+          <div className="container sph">
             <h5 style={{color:"#493323"}}>1. Введите текст</h5>
             <form onSubmit={submitHandler}>
               <textarea
@@ -66,16 +66,18 @@ const Speedreader = () => {
               >
               </textarea>
               <br/>
-              <h5 style={{color:"#493323"}}>2. Выставите кол-во слов в минуту</h5>
-              <div style={{display:"flex", justifyContent:"space-between"}}>
-                
-                  <div onClick={() => setSpeed(speed-10)} style={{width:"45%"}} className="btn btn-warning">-</div>
-                  <input 
-                  style={{textAlign:"center"}}
-                  className="form-control"
-                  value={speed} readOnly
-                  />
-                  <div onClick={() => setSpeed(speed+10)} style={{width:"45%"}} className="btn btn-warning">+</div>
+              <div>
+                <h5 style={{color:"#493323"}}>2. Выставите кол-во слов в минуту</h5>
+                <div style={{display:"flex", justifyContent:"space-between"}}>
+                  
+                    <div onClick={() => setSpeed(speed-10)} style={{width:"45%"}} className="btn btn-warning">-</div>
+                    <input 
+                    style={{textAlign:"center"}}
+                    className="form-control"
+                    value={speed} readOnly
+                    />
+                    <div onClick={() => setSpeed(speed+10)} style={{width:"45%"}} className="btn btn-warning">+</div>
+                </div>
               </div>
               <br/>
               <h5 style={{color:"#493323"}}>3. Приготовтесь и начинайте</h5>

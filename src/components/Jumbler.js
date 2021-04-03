@@ -1,4 +1,5 @@
-import {useState, useRef} from 'react'
+import {useState, useRef, useEffect} from 'react'
+import {shuffleArray} from "../utils"
 
 const Jumbler = () => {
   const [result, setResult] = useState("")
@@ -6,6 +7,11 @@ const Jumbler = () => {
   const refff = useRef()
 
   const style = show ? {display:"block"} : {display:"none"}
+
+  useEffect(() => {
+    alert("По рзелульаттам илссеовадний одонго анлигйсокго унвиертисета, не иеемт занчнеия, в кокам пряокде рсапожолены бкувы в солве. Галвоне, чотбы преавя и пслоендяя бквуы блыи на мсете. Осатьлыне бкувы мгоут селдовтаь в плоонм бсепордяке, все-рвано ткест чтаитсея без побрелм. Пичрионй эгото ялвятеся то, что мы чиатем не кдаужю бкуву по отдльенотси, а все солво цликеом.\n\n Этот тренажер создает такие тексты. Вставьте заранее скопированный текст и развивайте данную способность.")
+  },[])
+
 
   const submitHandler = (e) => {
     e.preventDefault()
@@ -24,16 +30,6 @@ const Jumbler = () => {
               }
                 let middle = elem.slice(1, end)
                 
-                
-                function shuffleArray(array) {
-                  for (let i = array.length - 1; i > 0; i--) {
-                      let j = Math.floor(Math.random() * (i + 1));
-                      let temp = array[i];
-                      array[i] = array[j];
-                      array[j] = temp;
-                  }
-
-                }
                 let y = middle.split("")
                 shuffleArray(y)
                 return elem[0] + y.join("") + ending + " "
