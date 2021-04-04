@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-jumbled-paragraph/static/css/main.3a03982f.chunk.css",
+    "main.css": "/react-jumbled-paragraph/static/css/main.56606c9e.chunk.css",
     "main.js": "/react-jumbled-paragraph/static/js/main.18c76859.chunk.js",
     "main.js.map": "/react-jumbled-paragraph/static/js/main.18c76859.chunk.js.map",
     "runtime-main.js": "/react-jumbled-paragraph/static/js/runtime-main.46c0500b.js",
@@ -10,13 +10,13 @@
     "static/js/3.8b8d2300.chunk.js": "/react-jumbled-paragraph/static/js/3.8b8d2300.chunk.js",
     "static/js/3.8b8d2300.chunk.js.map": "/react-jumbled-paragraph/static/js/3.8b8d2300.chunk.js.map",
     "index.html": "/react-jumbled-paragraph/index.html",
-    "static/css/main.3a03982f.chunk.css.map": "/react-jumbled-paragraph/static/css/main.3a03982f.chunk.css.map",
+    "static/css/main.56606c9e.chunk.css.map": "/react-jumbled-paragraph/static/css/main.56606c9e.chunk.css.map",
     "static/js/2.0a891eef.chunk.js.LICENSE.txt": "/react-jumbled-paragraph/static/js/2.0a891eef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.46c0500b.js",
     "static/js/2.0a891eef.chunk.js",
-    "static/css/main.3a03982f.chunk.css",
+    "static/css/main.56606c9e.chunk.css",
     "static/js/main.18c76859.chunk.js"
   ]
 }
