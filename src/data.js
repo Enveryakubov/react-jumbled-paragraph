@@ -19,7 +19,7 @@ const data = [{
     id: 3,
     name: "Вольтер",
     title: "Поэт",
-    quote: "««Читая авторов, которые хорошо пишут, привыкают хорошо говорить»",
+    quote: "«Читая авторов, которые хорошо пишут, привыкают хорошо говорить»",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/D%27apr%C3%A8s_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire_%28Institut_et_Mus%C3%A9e_Voltaire%29_-001.jpg/220px-D%27apr%C3%A8s_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire_%28Institut_et_Mus%C3%A9e_Voltaire%29_-001.jpg" 
 
 },
